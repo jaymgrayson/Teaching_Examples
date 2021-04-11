@@ -30,7 +30,7 @@ while (x>0){
 }
 print ("Loop Done")
 rm(list=ls())
-x<--50
+x<-50
 while (x>0){
     print (x)
     x<-x-1
