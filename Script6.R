@@ -13,7 +13,7 @@ for(i in 1:10) {
 print(i)
 rm(list=ls())
 u1 <- rnorm(30)
-print("This loop calculates the square of the first 10 elements of vector u1")
+print("This loop calculates the square of the elements of vector u1")
 # Initialize `usq`
 usq <- 0
 for(i in seq_along(u1)) {
